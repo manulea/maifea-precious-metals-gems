@@ -1,56 +1,46 @@
 # Maifea Precious Metals and Gems
 
-Welcome to the Maifea Precious Metals and Gems project! This project is designed to showcase a collection of precious metals and gems, providing users with an engaging experience to explore our offerings.
+Welcome to the Maifea Precious Metals and Gems website!  
+This site showcases a curated collection of precious metals and gems, including rare diamonds and unique investment pieces.
+
+## Live Website
+
+Visit the site: [https://manulea.github.io/maifea-precious-metals-gems/](https://manulea.github.io/maifea-precious-metals-gems/)
 
 ## Project Structure
 
-The project is organized as follows:
-
 ```
 maifea-precious-metals-gems
-├── public
-│   └── index.html          # Main HTML document for the website
-├── src
-│   ├── assets              # Directory for static assets (images, fonts, etc.)
-│   ├── components
-│   │   └── Header.js       # Header component for the website
-│   ├── pages
-│   │   └── Home.js         # Homepage component
-│   └── App.js              # Main application component
-├── package.json            # npm configuration file
-└── README.md               # Project documentation
+├── docs
+│   ├── index.html          # Main HTML document for the website
+│   ├── styles.css          # Site styling
+│   └── [media files]       # Images and videos (e.g., diamond showcase)
+├── README.md               # Project documentation
 ```
 
-## Getting Started
-
-To get started with the project, follow these steps:
+## How to Update the Site
 
 1. **Clone the repository**:
    ```
-   git clone <repository-url>
+   git clone https://github.com/manulea/maifea-precious-metals-gems.git
    cd maifea-precious-metals-gems
    ```
 
-2. **Install dependencies**:
+2. **Make your changes** (edit HTML, CSS, or add media).
+
+3. **Commit and push**:
    ```
-   npm install
+   git add .
+   git commit -m "Describe your update"
+   git push
    ```
 
-3. **Run the application**:
-   ```
-   npm start
-   ```
-
-The application will be available at `http://localhost:3000`.
-
-## Contributing
-
-If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
+GitHub Pages will automatically update the live site after you push.
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License.
 
 ## Contact
 
-For any inquiries, please reach out to [your-email@example.com].
+For inquiries, please contact: [your-email@example.com]
